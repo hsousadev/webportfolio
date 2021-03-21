@@ -1,0 +1,132 @@
+.Footer .FinalMessage   {
+
+    margin-top: 4rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Footer .FinalMessage p {
+    font-size: 1.5rem;
+}
+
+.Footer .FinalMessage strong {
+    color: var(--purple) !important;
+}
+
+.Footer .Options {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.Footer .Options .Button {
+   background-color: var(--purple);
+   margin-top: 3.75rem;
+
+
+   width: 15.625rem;
+   height: 3.125rem;
+   
+   border-radius: 1.875rem;
+   
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+}
+
+.Footer .Options .Button:hover {
+    transition: 300ms;
+    background-color: #462A80;
+}
+
+.Footer .Options .Button a {
+    font-size: 1.563rem;
+    color: white;
+    font-weight: 600;
+ 
+ }
+
+.Footer .Options .Top {
+    margin-top: 3.75rem;
+ 
+ 
+    width: 15.625rem;
+    height: 3.125rem;
+    
+    border-radius: 1.875rem;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.Footer .Options .Top a{
+    font-size: 1.563rem;
+    color: white;
+    font-weight: 600;
+
+}
+
+.Footer .Options .Top a:hover{
+    transition: 300ms;
+    color: var(--purple);
+}
+
+.Footer .Creator {
+    margin-top: 7.813rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 6.25rem;
+    width: 100%;
+
+    background-color: var(--bgbox);
+}
+
+.Footer .Creator p {
+    font-size: 1.5rem;
+    background-color: transparent;
+}
+
+.Footer .Creator strong {
+    color: var(--purple) !important;
+    background-color: transparent;
+}
+
+@media (max-width: 845px) {
+    .Footer .FinalMessage h1 {
+        font-size: 2.5rem;
+        margin-top: 1rem;
+    }
+
+    .Footer .FinalMessage p {
+        font-size: 1rem;
+    }
+
+    .Footer .Options .Button {
+        zoom: 70%;
+    }
+
+     .Footer .Options .Top {
+        zoom: 70%;
+    
+    }
+
+    .Footer .Creator {
+        zoom: 70%;
+    }
+
+    .Footer .FinalMessage   {
+        margin-top: 2rem;
+    }
+    
+}
+

@@ -1,0 +1,254 @@
+h1 {
+    font-size: 4.3rem;
+}
+
+strong {
+    color: var(--rose);
+}
+
+
+.Tecs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-top: 10rem; 
+    
+
+}
+
+.Tecs > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 90%;
+}
+
+.Tecs > div h1 {
+    margin-left: 0.313rem;
+}
+
+
+.Tecsbox {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    gap: 4rem;
+
+    margin-top: 4.063rem;
+
+    margin-bottom: 8rem;
+
+}
+
+.Tecsbox .Tec {
+    display: flex;
+    flex-direction: column;
+   
+    width: 5.125rem;
+}
+
+
+.Tec p { 
+    font-weight: 600;
+    margin-top: 1.25rem;
+}
+
+
+.MyWorks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-bottom: 10rem; 
+}
+
+.MyWorks .Title {
+    display: flex;
+    align-items: center;
+
+    margin-bottom: 2rem;
+}
+
+
+.MyWorks .Tecsmenu {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    gap: 4.375rem;
+
+    margin-bottom: 4rem;
+
+    font-size: 1.813rem;
+
+}
+
+
+.MyWorks .Tecsmenu button {
+    font-size: 1.5rem;
+    color: white;
+    font-weight: 600;
+}
+
+.MyWorks .Tecsmenu button:hover {
+    transition: 200ms;
+    cursor: pointer;
+    color: var(--rose);
+}
+
+.MyWorks .Tecsmenu button:focus{
+    color: var(--rose);
+}
+
+
+
+.MyWorks .Works {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+    align-items: center;
+    justify-content: center;
+
+
+    gap: 1.25rem;
+}
+
+.MyWorks .Works h1 {
+    font-size: 18px;
+}
+
+.MyWorks .Works a img {
+    height: 12.5rem;
+    width: 22.188rem;
+
+    animation-name: fadein;
+    animation-duration: 5s;
+
+}
+
+.MyWorks .Works .WorksBox {
+
+    background:var(--bgbox);
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 1rem;
+}
+
+.MyWorks .Works .WorksBox h1 {
+    font-size:  1.2rem;
+    text-align: center;
+    color: var(--rose) !important;
+
+    background-color: var(--bgbox);
+}
+
+.MyWorks .Works .WorksBox p {
+    font-size: 1.2rem;
+    text-align: center;
+
+    background-color: var(--bgbox);
+
+}
+
+.MyWorks .Works .WorksBox:hover {
+    transition: 300ms;
+    transform: translateY(-0.625rem);
+}
+
+
+@media (max-width: 845px) {
+
+    
+    .Tecs #Portfolio img {
+        height: 2.4rem;
+    }
+
+    .Tecs #Portfolio h1 {
+        font-size: 1.5rem;
+    }
+
+    .Tecs {    
+        margin-top: 2rem; 
+    
+    }
+    
+
+    .Tecs .Tecsbox {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        columns: auto;
+        gap: 2rem;
+        
+    }
+
+    .Tecs .Tecsbox .Tec {
+        width: 100%;
+    }
+
+   
+    .Tecsbox {
+        margin-bottom: 4rem;
+    
+    }
+
+    
+
+    .MyWorks {
+        line-height: 2rem;
+    }
+
+    .MyWorks .Tecsmenu {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    
+        gap: 1rem;
+    
+        margin-bottom: 4rem;
+    
+        font-size: 1.2rem;
+
+    
+    }
+
+    .MyWorks .Tecsmenu button {
+        font-size: 1rem;
+        line-height: 1rem;
+    }
+
+    .Tecs .MyWorks .Works {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    
+        gap: 1.25rem;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+        line-height: 2rem;
+      }
+
+}
+
+
+@media(max-width: 1450px) {
+    .MyWorks .Works {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+    }
+    
+
+}
+
+
+

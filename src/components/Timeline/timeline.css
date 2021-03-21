@@ -1,0 +1,330 @@
+.Timeline {
+    margin-top: 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Title h1 {
+    font-size: 4.3rem;
+    margin-left: 0.313rem
+}
+
+.TimelineDescription {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.TimelineDescription p {
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 1.6rem;
+
+    width: 65%;
+
+    text-align: justify;
+
+    padding: 2rem;
+}
+
+.TimelineBoxes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    zoom: 90%;
+}
+
+.TimelineBoxes .tBox {
+
+    margin-top: 3.125rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 0.8rem;
+    width: 78rem;
+
+    background-color: var(--bgbox);
+    border-radius: 0.625rem;
+}
+
+.TimelineBoxes .tBox .tBoxImg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background:var(--bgbox);
+}
+
+.TimelineBoxes .tBox .tBoxImg img {
+    background:var(--bgbox);
+}
+
+
+.TimelineBoxes .tBox .tBoxDescription {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: transparent;
+    padding: 0.8rem;
+    height: 90%;
+}
+
+.TimelineBoxes .tBox .tBoxDescription h1{
+    font-size: 2.25rem;
+    background-color: transparent;
+    
+    margin-bottom: 1.375rem;
+
+}
+
+
+.TimelineBoxes .tBox .tBoxDescription p{
+    font-size: 1.5rem;
+    background-color: transparent;
+    text-align: justify;
+
+    margin-bottom: 1.375rem;
+
+}
+
+.TimelineBoxes .tBox .tBoxDescription strong{
+    font-size: 2.25rem;
+    background-color: transparent;
+
+}
+
+.TimelineBoxes .tBox .tBoxDescription h2 {
+    font-size: 1.5rem;
+    background-color: transparent;
+}
+
+.TimelineBoxesLarger {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 0.8rem;
+
+    width: 78rem;
+    height: auto;
+    margin-top: 3.125rem;
+
+    background-color: var(--bgbox);
+    border-radius: 0.625rem;
+    
+    zoom: 90%;
+}
+
+.TimelineBoxesLarger .Cover  {
+    background-color: transparent;
+    border-radius: 0.625rem;
+}
+
+
+.TimelineBoxesLarger .Cover img {
+    width: 100%;
+    background-color: transparent;
+
+}
+
+.tBoxLarger {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+}
+
+.tBoxImgLarger {
+    background: var(--bgbox);
+}
+
+.tBoxLarger img{
+    background-color: transparent;
+    width: 300px;
+    padding: 0.8rem;
+}
+
+.tBoxDescriptionLarger {
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start;
+
+    background-color: transparent;
+    padding: 0.8rem;
+
+    height: 90%;
+
+}
+
+.tBoxDescriptionLarger h1 {
+    font-size: 2.25rem;
+    background-color: transparent;
+    
+    margin-bottom: 1.375rem;
+}
+
+.tBoxDescriptionLarger p {
+    font-size: 1.5rem;
+    background-color: transparent;
+    text-align: justify;
+
+    margin-bottom: 1.375rem;
+}
+
+.tBoxDescriptionLarger strong {
+    font-size: 2.25rem;
+    background-color: transparent;
+}
+
+.tBoxDescriptionLarger h2 {
+    font-size: 1.5rem;
+    background-color: transparent;
+}
+
+
+@media (max-width: 1300px) {
+
+    .TimelineBoxes .tBox {
+
+        margin-top: 1.125rem;
+        width: 50.563rem;
+    }
+
+    .TimelineBoxes .tBox .tBoxDescription h1{
+        font-size: 1.5rem;
+        margin-bottom: 1.375rem;
+    
+    }
+
+    .TimelineBoxes .tBox .tBoxDescription p{
+        font-size: 1.125rem;
+    }
+
+    .TimelineBoxes .tBox .tBoxDescription strong{
+        font-size: 1.5rem;
+    }
+
+    .TimelineBoxes .tBox .tBoxDescription h2 {
+        font-size: 1.125rem;
+    }
+
+    .TimelineBoxesLarger {
+        width: 50.563rem;
+    }
+
+    .tBoxDescriptionLarger h1 {
+        font-size: 1.5rem;
+    }
+
+    .tBoxDescriptionLarger p {
+        font-size: 1.125rem;
+    }
+
+    .tBoxDescriptionLarger strong {
+        font-size: 1.5rem;
+    }
+
+    .tBoxDescriptionLarger h2 {
+        font-size: 1.125rem;
+    }
+
+}
+
+@media (max-width: 845px) {
+
+    .Timeline {
+        margin-top: 4.5rem;
+    }
+
+    .TimelineDescription p {
+        font-size: 1.2rem;
+        width: 90%;
+        padding: 0 2rem;
+    }
+    
+
+    .Title h1 {
+        font-size: 1.5rem;
+    }
+
+    .Title img {
+        height:  2.4rem;
+    }
+
+
+    .TimelineBoxes .tBox {
+        margin-top: 1.125rem;
+        width: 24rem;
+    }
+
+    .TimelineBoxes .tBox img{
+        width: 9.375rem;
+        height: 9.375rem;
+    }
+
+    .TimelineBoxes .tBox .tBoxDescription h1{
+        font-size: 1.025rem;
+        line-height: 1.2rem !important;
+        margin-bottom: 0.5rem !important;
+    }
+
+    .TimelineBoxes .tBox .tBoxDescription p{
+        font-size: 0.675rem;
+    }
+
+    .TimelineBoxes .tBox .tBoxDescription strong{
+        font-size: 1.025rem;
+    }
+
+    .TimelineBoxes .tBox .tBoxDescription h2 {
+        font-size: 0.725rem;
+    }
+
+    .TimelineBoxesLarger {
+        width: 24rem;
+        margin-top: 1.125rem;
+    }
+
+
+    .tBoxImgLarger img {
+        width: 9.375rem;
+        height: 9.375rem;
+    }
+
+    .tBoxDescriptionLarger h1 {
+        font-size: 1.025rem;
+        line-height: 1.2rem !important;
+        margin-bottom: 0.5rem !important;
+    }
+
+    .tBoxDescriptionLarger p {
+        font-size: 0.675rem;
+    }
+
+    .tBoxDescriptionLarger strong {
+        font-size: 1.025rem;
+    }
+
+    .tBoxDescriptionLarger h2 {
+        font-size: 0.725rem;
+    }
+
+
+
+
+
+
+
+}

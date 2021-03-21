@@ -1,0 +1,212 @@
+.DepositionsBox {
+    background-color: var(--bg);
+    zoom: 95%;
+}
+
+.DepositionTitle {
+    margin-top: 4rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.DepositionTitle h1{
+    margin-left: 0.268rem;
+}
+
+
+.DepositionTitle strong{
+    color: var(--rose) !important;
+}
+
+.DepositionDescription {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.DepositionDescription p {
+    font-size: 1.6rem;
+
+    width: 65%;
+
+    text-align: justify;
+
+    padding: 2rem 2rem 0 2rem;
+}
+
+
+.DepositionDescription strong {
+    font-weight: 600;
+    color: var(--rose);
+}
+
+
+
+.DepositionsBox {
+    display: flex !important;
+    justify-content: center;
+
+    margin-bottom: 4rem;
+    
+}
+
+.Deposition {
+    height: auto !important;
+    width: 40.25rem; 
+
+    padding: 2rem;
+
+    background-color: transparent;
+    border-radius: 1.625rem;
+}
+
+.Person > div {
+    background-color: var(--bgbox);
+}
+
+.Person {
+    display: flex;
+
+    border-radius: 0.625rem 0.625rem 0 0;
+    
+    gap: 1rem;
+    padding: 1.6rem;
+    background-color: var(--bgbox);
+}
+
+.Person img {
+    height: 5.625rem;
+    background-color: var(--bgbox);
+}
+
+.Person h1 {
+    font-size: 2.25rem;
+    line-height: 2.3rem;
+
+    color: var(--rose) !important;
+    background-color: var(--bgbox);
+}
+
+.Person h4 {
+    font-size: 1.125rem;
+    font-weight: 600;
+    background-color: var(--bgbox);
+}
+
+.Message {
+
+    display: flex;
+    flex-direction: column;
+
+    border-radius: 0 0 0.625rem 0.625rem;
+    
+    background-color: var(--bgbox);
+    gap: 1.5rem;
+
+    padding: 1.5rem;
+}
+
+.Message img{
+    background-color: var(--bgbox);
+    height: 3.438rem;
+}
+
+.Message p{
+    background-color: var(--bgbox);
+    
+    font-style: italic;
+    font-size: 1.5rem;
+    text-align: justify;
+}
+
+.Message strong{
+    background-color: var(--bgbox);
+    
+    font-size: 1.5rem;
+    color: var(--rose) !important;
+    text-align: justify !important;
+}
+
+@media (max-width: 845px) {
+
+    .DepositionsBox{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Deposition {
+        height: auto;
+        width: 22rem; 
+        padding: 0;
+
+        margin-bottom: 2rem;
+
+        border-radius: 1.625rem;
+        background-color: var(--bgbox);
+    }
+
+    
+    .DepositionTitle h1{
+        font-size: 1.5rem;
+    }
+
+    .DepositionDescription p {
+        font-size: 1.2rem;
+        width: 90%;
+        padding: 0 2rem;
+    }
+
+    .DepositionTitle {
+        margin-top: 2rem;
+        margin-bottom: 0.7rem;
+    }
+
+    .DepositionTitle img{
+        height: 2.25rem;
+    }
+
+    .Person {
+        padding: 1.6rem 1.6rem 0 1.6rem;
+    }
+
+    .Person img {
+        height: 3.625rem;
+    }
+
+    .Person h1 {
+        font-size: 1.2rem;
+    }
+
+    .Person h4 {
+        font-size: 0.675rem;
+    }
+
+    .Message {
+        padding: 1.2rem 1.5rem 1.5rem 1.5rem;
+        gap: 1rem;
+    }
+
+    .Message p{
+        font-size: 0.8rem;
+    } 
+    
+    .Message strong{
+        font-size: 0.8rem;
+    }
+    
+
+}
+
+
+
+
+
+
+
+
+
+

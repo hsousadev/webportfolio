@@ -1,0 +1,115 @@
+#Companies {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.BackgroundTitle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 4rem;
+
+}
+
+.BackgroundTitle > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-bottom: 2rem;
+}
+
+
+
+
+.BackgroundTitle > div h1 {
+    margin-left: 0.313rem;
+}
+
+.BackgroundTitle > div strong {
+    color: var(--purple) !important;
+    background-color: transparent;
+}
+
+
+.BackgroundDescription p {
+    font-size: 1.6rem;
+
+    width: 65%;
+
+    text-align: justify;
+
+    padding: 2rem;
+}
+
+.CompaniesGrid {
+    display: inline-grid;
+    grid-template-rows: 12.5rem 12.5rem 12.5rem;
+    grid-template-columns: 12.5rem 12.5rem 12.5rem 12.5rem 12.5rem;
+    
+    grid-gap: 2.188rem;
+    
+    justify-items: center;
+    align-items: center;
+    
+}
+
+.CompaniesGrid img {
+    width: 12.5rem;
+    height: auto;
+}
+
+@media (max-width: 1160px) {
+    .CompaniesGrid {
+        display: inline-grid;
+
+        grid-template-rows: 12.5rem 12.5rem 12.5rem 12.5rem;
+        grid-template-columns: 12.5rem 12.5rem 12.5rem 12.5rem;
+        
+        grid-gap: 2.188rem;
+
+        justify-items: center;
+        align-items: center;
+    }
+
+}
+
+@media (max-width: 845px) {
+
+    .BackgroundTitle > div img{
+        height: 2.125rem;
+    }
+    .BackgroundTitle > div h1 {
+        font-size: 1.5rem;
+    }
+    
+
+    .BackgroundDescription p {
+        font-size: 1.2rem;
+        width: 90%;
+        padding: 0 2rem;
+    }
+    
+
+    .CompaniesGrid img {
+        width: 8.5rem;
+        height: auto;
+    }
+
+    .CompaniesGrid {
+        display: inline-grid;
+
+        grid-template-rows: 6.25rem 6.25rem;
+        grid-template-columns: 6.25rem 6.25rem;
+        
+        grid-gap: 0 5rem;
+        
+        justify-items: center;
+        align-items: center;
+    }
+}

@@ -1,0 +1,262 @@
+[aos="fade"] {
+    opacity: 0;
+    transition-property: opacity;
+  }
+  
+  [aos="fade"].aos-animate {
+    opacity: 1;
+  }
+
+.Timeline {
+    background-color: var(--bg);
+}
+
+.About {  
+    margin-top: 10rem;  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Foto {    
+    display: flex;
+    justify-content: center;
+}
+
+.Foto img {    
+    height: 12.625rem;
+}
+
+.HenriqueSousa {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 2rem;
+}
+
+.HenriqueSousa img {
+    height: 3.438rem;
+}
+
+.HenriqueSousa h1 {
+    font-size: 4.3rem;
+    font-family: "Raleway";
+    margin-left: 0.313rem;
+}
+
+.HenriqueSousa h1 strong {
+    color: var(--purple);
+}
+
+.Description {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Description p {
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 1.6rem;
+
+    width: 65%;
+
+    text-align: justify !important;
+
+    padding: 2rem;
+}
+
+.Description strong {
+    color: var(--purple);
+}
+
+
+.Hardskills {
+    margin-top: 8rem;
+
+    display: flex;
+    align-items: center;
+    
+    justify-content: center;
+}
+
+.Hardskills img {
+    height: 3rem;
+}
+
+.Hardskills h1 {
+    font-size: 4.3rem;
+    font-family: "Raleway";
+    margin-left: 0.313rem;
+}
+
+.Hardskills h1 strong {
+    color: var(--purple);
+}
+
+
+.Skills {
+    margin-top: 4.063rem;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    zoom: 90%;
+
+    padding: 0 12.125rem;
+}
+
+
+
+.Tec {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-bottom: 2.063rem;
+
+    width: 25.438rem;    
+}
+
+.Tec > p {
+    font-weight: 600;
+    font-size: 1.813rem;
+}
+
+.Tec strong {
+    color: var(--purple);
+    font-size: 1.813rem;
+}
+
+
+.ExperienceBar > div {
+    flex: 1;
+    
+    height: 4px;
+
+    border-radius: 4px;
+    background: white;
+
+    position: relative;
+
+    margin-bottom: 4.063rem;
+
+}
+
+.ExperienceBar > div > div {
+    height: 4px;
+    border-radius: 4px;
+    background-color: var(--purple);
+  
+
+}
+
+@media(max-width: 1450px) {
+
+    .Skills {
+        margin-top: 4.063rem;
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .Col {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+    }
+
+    .Col > div {
+        padding: 2rem;
+    }
+}
+
+
+
+@media (max-width: 845px) {
+
+    .About {  
+        margin-top: 4rem;  
+    }
+
+    .Description p {
+        font-size: 1.2rem;
+        width: 95%;
+        padding: 0 2rem;
+    }
+
+    .Description p br {
+        display: none;
+    }
+
+    .HenriqueSousa img {
+        height: 2.438rem;
+    }
+    
+    .HenriqueSousa h1 {
+        font-size: 1.5rem;
+    }
+
+    .Hardskills {
+        margin-top: 2rem;
+        margin-bottom: -1rem;
+    }
+
+
+    .Hardskills img {
+        height:  2.4rem;
+    }
+
+    .Hardskills h1 {
+        font-size: 1.5rem;
+    }
+
+    .Col {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .Tec {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+
+
+        margin-bottom: 1.2rem;
+
+        width: 10.438rem; 
+    }
+
+    .Tec img {
+        height: 2.5rem;
+    }
+
+    .Tec > p {
+        font-weight: 600 !important;
+        font-size: 1.2rem;
+        margin-top: 0.5rem;
+    }
+    
+    .Tec strong {
+        color: var(--purple);
+        font-size: 1.2rem;
+    }
+
+    .ExperienceBar {
+        width: 50%;
+        margin-left: 2.7rem;
+    }
+
+    .Col > div {
+        padding: 0;
+    }
+
+
+}

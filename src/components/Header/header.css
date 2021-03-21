@@ -1,0 +1,83 @@
+.headerbox {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    height: 3.625rem;
+
+    margin-top: 2rem;
+
+    padding: 2rem;
+}
+
+#menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    gap: 4rem;
+
+}
+
+#menu a {
+    font-family: 'Raleway', sans-serif !important;
+    color: white;
+}
+
+#menu a:hover {
+    transition: 200ms;
+    color: var(--rose);
+}
+
+
+
+#contato {
+    margin-right: 0rem !important;
+}
+
+
+#social img {
+    height: 1.875rem;
+    margin-right: 1.875rem;
+}
+
+#social img:hover {
+    transition: 200ms;
+    opacity: 70%;
+}
+
+
+
+@media (max-width: 950px) {
+    .headerbox #menu {
+        display: none;
+    }
+
+    .headerbox {
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+        justify-content: center;
+
+    }
+
+    #logo {
+        margin-top: 2.6rem;
+        margin-bottom: 2rem;
+    }
+
+    #social img {
+        margin: 0;
+    }
+
+    #social {
+        gap: 34px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 0;
+    }
+   
+}
+

@@ -1,0 +1,230 @@
+#Videos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.VideoTitle strong{
+    color: var(--purple);
+}
+
+.VideoTitle p{
+    text-align: center;
+    font-size: 1.6rem;
+
+    width: 65%;
+
+    text-align: justify !important;
+
+    padding: 1rem;
+}
+
+.VideoTitle {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.VideoTitle > div{
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    margin-bottom: 1.438rem;
+}
+
+
+.VideoBox {
+    margin-top: 4.063rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+}
+
+.VideoRelated{
+    margin-top: 2.5rem;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    align-items: center;
+    justify-content: center;
+
+    gap: 0.8rem;
+}
+
+
+.Video {
+    display: flex;
+    align-items: left;
+    justify-content: center;
+
+    background: var(--bgbox);
+    border-radius:  0.625rem;
+
+    padding: 1rem;
+
+    box-shadow: 1px 1px var(--bgbox);
+    
+}
+
+.Video:hover {
+    background-color: var(--bgboxhover);
+}
+
+.Video > div {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: space-between;
+
+    width: 15.375rem;
+    
+    text-align: left;
+
+    margin-left: 1rem;
+
+    background: none;
+}
+
+
+.Video > div p{
+    background-color: transparent;
+    font-size: 1.25rem;
+}
+
+.Video h1 {
+    font-size: 1.2rem;
+    line-height: 1.8rem !important;
+    background-color: transparent;
+}
+
+.Video img {
+    width: 22.188rem;
+    height: 12.5rem;  
+}
+
+.Video strong {
+    margin-top: 0.6rem;
+    color: var(--purple);
+    background-color: transparent;
+}
+
+.Video strong:hover {
+    transition: 300ms;
+    color: var(--purple);
+    background-color: transparent;
+}
+
+.btnVideo {
+    border-radius: 0.625rem;
+}
+
+.btnVideo:focus {
+    background-color: var(--bgboxhover);
+}
+
+@media(max-width: 1320px) {
+    
+    #VideoFrame {
+        width: 52.813rem;
+        height: 29.125rem;
+    }
+
+    .VideoRelated{
+        margin-top: 2.5rem;
+    
+        display: flex;
+        flex-direction: column;
+    
+        align-items: center;
+        justify-content: center;
+        
+    
+        gap: 0.8rem;
+    }
+
+}
+
+@media (max-width: 845px) {
+
+    #Videos {
+        margin-top: -4rem;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .VideoTitle h1 {
+        font-size: 1.5rem;
+        margin-left: 0.313rem;
+    }
+
+    .VideoTitle p {
+        font-size: 1.2rem;
+        width: 90%;
+        padding: 0 2rem;
+    }
+
+    .VideoTitle img {
+        height:  2.4rem;
+    }
+
+    #VideoFrame {
+        width: 23.313rem;
+        height: 12.875rem;
+    }
+
+    .VideoRelated{
+        margin-top: 2.5rem;
+    
+        display: flex;
+        flex-direction: column;
+    
+        align-items: center;
+        justify-content: center;
+    
+        gap: 0.8rem;
+    }
+
+    .Video > div {
+        
+        width: 10rem;
+        height: 6rem;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    
+        margin-left: 1rem;
+    
+        background: none;
+    }
+
+    .Video p {
+        font-size: 0.9rem !important;
+    }
+    
+    .Video img {
+        width: 11.125rem;
+        height: 6.25rem;  
+    }
+
+    .Video strong {
+        display: none;  
+    }
+
+
+}   
+
+
+
+
+
